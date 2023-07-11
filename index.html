@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Initiative</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./imagens/logo-vingadores.png" alt="Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione o Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="capitao-america" data-name="Capitão America" data-description="Garoto franzino, com coração e força de vontade enormes. Foi escolhido para o projeto do super soldado. Com força extraordinária, se tornou o Capitão América.">
+                    <img src="./imagens/card-capitao-america.jpg" alt="Personagem Capitão America">
+                </li>
+                <li class="personagem" id="homem-de-ferro" data-name="Homem de Ferro" data-description="Gênio, playboy, milionário e filantropo. Após ser atigindo por uma explosão, ficando com estilhaços no peito e ser capturado, Tony Stark controi uma armadura para escarpar, se tornando então o Homem de Ferro.">
+                    <img src="./imagens/card-homem-de-ferro.jpg" alt="Personagem Homem de Ferro">
+                </li>
+                <li class="personagem" id="thor" data-name="Thor" data-description="Um Deus. Filho de Odin. Digno de levantar o poderoso Mjolnir, invocar raios e voar pelos céus dos nove reinos, o Poderoso Thor.">
+                    <img src="./imagens/card-thor.jpg" alt="Personagem Thor">
+                </li>
+                <li class="personagem" id="hulk" data-name="Hulk" data-description="Gênio Bruce Banner, após ser exposto a radiação gama, passa a dividir o corpo com um ser de fúria incontrolável e força descomunal, o Incrível Hulk..">
+                    <img src="./imagens/card-hulk.jpg" alt="Personagem Hulk">
+                </li>
+                <li class="personagem" id="viuva-negra" data-name="Viuva Negra" data-description="Assassina treinada na Rússia, descoberta e acolhida por Nick Fury. Se torna uma agente da Shield e luta ao lado do vingadores para manter o planeta seguro, Viúva Negra.">
+                    <img src="./imagens/card-viuva-negra.jpg" alt="Personagem Viuva Negra">
+                </li>
+                <li class="personagem" id="gaviao-arqueiro" data-name="Gavião Arqueiro" data-description="Apesar de ser apenas um humano, possui uma mira inigualável. Também agente da shiled.">
+                    <img src="./imagens/card-gaviao-arqueiro.jpg" alt="Personagem Gavião Arqueiro">
+                </li>
+                <li class="personagem" id="feiticeira-escarlate" data-name="Feiticeira Escarlate" data-description="Recebeu seus poderes da jóia da mente, muito poderosa, mesmo ainda não sabendo controlar completamento seus poderes, Feiticeira Escarlate.">
+                    <img src="./imagens/card-feiticeira-escarlate.jpg" alt="Personagem Feiticeira Escarlate">
+                </li>
+                <li class="personagem" id="visao" data-name="Visão" data-description="Um androide criado para ser Ultron, mas recebeu a jóia da mente e configuração do Jarvis, se tornando o Visão.">
+                    <img src="./imagens/card-visao.jpg" alt="Personagem Visão">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./imagens/card-capitao-america.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Capitão America</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Garoto franzino, com coração e força de vontade enormes. Foi escolhido para o projeto do super soldado. Com força extraordinária, se tornou o Capitão América.</p>
+                </div>
+        </section>
+    </main>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>
